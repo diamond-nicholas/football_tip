@@ -1,0 +1,24 @@
+.tips-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fixtures {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.urls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
