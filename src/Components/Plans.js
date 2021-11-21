@@ -25,7 +25,7 @@ const Plans = () => {
               Europe’s top ten league.
             </p>
             <button>Try This Out</button>
-            <h4>Exclusive to Smart Bet Members</h4>
+            <h4>Exclusive to Smart <br /> Bet Members</h4>
           </div>
         </article>
       </main>

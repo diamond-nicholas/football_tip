@@ -29,21 +29,28 @@ main {
   color: #33335f;
   font-size: 1.5rem;
 }
+.card2 h3 {
+  font-size: 1.5rem;
+}
 
-.card1 p {
- font-size: 1.3rem;
- text-align: center;
+.card1 p, .card2 p {
+  font-size: 1.3rem;
+  text-align: center;
 }
-.card1 button {
- padding: 23px;
- background-color: #3b6707;
- font-size: 30px;
- font-weight: 600;
- color: #fff;
+.card1 button,
+.card2 button {
+  padding: 23px;
+  background-color: #3b6707;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
 }
-.card1 h4 {
- font-size: 27px;
+.card1 h4, .card2 h4 {
+  font-size: 27px;
+  text-align: center;
 }
+
+
 
 .card1 {
   background-color: gold;
