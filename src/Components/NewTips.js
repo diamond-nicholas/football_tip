@@ -17,10 +17,10 @@ const NewTips = () => {
             <th>Tips</th>
           </tr>
           <tr>
-            <td>22:30</td>
-            <td>Chile</td>
-            <td>Curico Unido vs Colo Colo</td>
-            <td>X2</td>
+            <td>10:30</td>
+            <td>EPL</td>
+            <td>Chelsea vs Manchester Utd</td>
+            <td>1X</td>
           </tr>
           <tr>
             <td>22:30</td>
