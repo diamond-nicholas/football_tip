@@ -1,3 +1,4 @@
+import Content from './Content';
 import Nav from './Nav';
 import NewTips from './NewTips';
 import Plans from './Plans';
@@ -14,6 +15,7 @@ function App() {
       <Plans />
       <Upcoming />
       <Tips />
+      <Content />
     </div>
   );
 }
