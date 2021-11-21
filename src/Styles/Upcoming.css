@@ -3,3 +3,21 @@
  justify-content: center;
  align-items: center;
 }
+
+.recent {
+  border: 1px solid black;
+  width: 50%;
+  font-size: 1.3rem;
+}
+
+.recentHeader {
+   background-color: black;
+  color: white;
+}
+
+.recentHeader th {
+  padding: 0.7rem;
+}
+.bg {
+  background-color: thistle;
+}

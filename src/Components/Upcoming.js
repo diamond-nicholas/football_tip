@@ -9,22 +9,22 @@ const Upcoming = () => {
          <h3>Recent Winning Tips</h3>
        </div>
        <div className='fixtures'>
-         <table>
-           <tr>
+         <table className='recent'>
+           <tr className='recentHeader'>
              <th>Date</th>
              <th>League</th>
              <th>Match</th>
              <th>Tips</th>
              <th>Score</th>
            </tr>
-           <tr>
+           <tr className='bg'>
              <td>20/11</td>
              <td>EPL</td>
              <td>Chelsea vs Manchester Utd</td>
              <td>1X</td>
              <td>4-3</td>
            </tr>
-           <tr>
+           <tr className='bg'>
              <td>20/11</td>
              <td>Chile</td>
              <td>Curico Unido vs Colo Colo</td>
