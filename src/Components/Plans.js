@@ -13,7 +13,7 @@ const Plans = () => {
           <div className='card1'>
             <h3>Smart Bet Plan!</h3>
             <p>
-              Discover the world of smart betting tips and make profit steadily
+              Discover the world of smart betting tips and  make profit steadily
             </p>
             <button>Try This Out</button>
             <h4>Smart Bet Odds: 1.72</h4>

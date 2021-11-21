@@ -10,7 +10,7 @@ main {
  align-items: center;
 }
 
-.cards {
+/* .cards {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+} */
