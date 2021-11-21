@@ -17,16 +17,16 @@ const NewTips = () => {
   month[9] = 'October';
   month[10] = 'November';
   month[11] = 'December';
-  var time =  `${date.getDate()}, ${month[date.getMonth()]} Today`
+  var time =  `${date.getDate()}, ${month[date.getMonth()]} ${date.getFullYear()}`
   return (
     <div>
       <article className='tips-header'>
         <h3>Free Tips For Today</h3>
-        <button className='timer'>{time } </button>
+        <button className='timer'>{time} </button>
       </article>
       <div className='fixtures'>
         <table>
-          <tr>
+          <tr className='tableHeader'>
             <th>Time</th>
             <th>League</th>
             <th>Match</th>
@@ -47,8 +47,8 @@ const NewTips = () => {
         </table>
       </div>
       <aside className='urls'>
-        <button>View More</button>
-        <button>Banker Tip of the Day</button>
+        <button className='views'>View More</button>
+        <button className='banker'>Banker Tip of the Day</button>
       </aside>
     </div>
   );

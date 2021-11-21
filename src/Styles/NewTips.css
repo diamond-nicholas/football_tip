@@ -24,8 +24,29 @@ table{
   border: 1px solid black;
 }
 
+.tableHeader{
+  background-color: black;
+  color: white;
+}
+.tableHeader th {
+  padding: 0.5rem;
+}
+
 .urls {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.views, .banker {
+  margin-top: 2rem;
+  padding: 0.3rem;
+  font-size: 15px ;
+  margin-right: 10px;
+}
+
+.banker {
+  background-color: black;
+  color: white ;
+}
+
