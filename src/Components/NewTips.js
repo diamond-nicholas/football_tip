@@ -32,13 +32,13 @@ const NewTips = () => {
             <th>Match</th>
             <th>Tips</th>
           </tr>
-          <tr>
+          <tr className='bg'>
             <td>10:30</td>
             <td>EPL</td>
             <td>Chelsea vs Manchester Utd</td>
             <td>1X</td>
           </tr>
-          <tr>
+          <tr className='bg'>
             <td>22:30</td>
             <td>Chile</td>
             <td>Curico Unido vs Colo Colo</td>

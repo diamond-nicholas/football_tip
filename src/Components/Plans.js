@@ -15,7 +15,7 @@ const Plans = () => {
             <p>
               Discover the world of smart betting tips and  make profit steadily
             </p>
-            <button>Try This Out</button>
+            <button className='btn'>Try This Out</button>
             <h4>Smart Bet Odds: 1.72</h4>
           </div>
           <div className='card2'>
@@ -24,7 +24,7 @@ const Plans = () => {
               Get ACCA of banker tips (one banker tip per league) selected from
               Europe’s top ten league.
             </p>
-            <button>Try This Out</button>
+            <button className='btn'>Try This Out</button>
             <h4>Exclusive to Smart <br /> Bet Members</h4>
           </div>
         </article>

@@ -20,33 +20,40 @@
   text-align: center;
 }
 
-table{
+table {
   border: 1px solid black;
+  width: 50%;
+  font-size: 1.3rem;
 }
 
-.tableHeader{
+.tableHeader {
   background-color: black;
   color: white;
 }
 .tableHeader th {
-  padding: 0.5rem;
+  padding: 0.7rem;
 }
-
+.bg {
+  background-color: thistle;
+}
+td {
+  padding: 0.7rem;
+}
 .urls {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.views, .banker {
+.views,
+.banker {
   margin-top: 2rem;
   padding: 0.3rem;
-  font-size: 15px ;
+  font-size: 15px;
   margin-right: 10px;
 }
 
 .banker {
   background-color: black;
-  color: white ;
+  color: white;
 }
-

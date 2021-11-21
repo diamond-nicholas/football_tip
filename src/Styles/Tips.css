@@ -1,16 +1,35 @@
-main {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+.mainTips {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbd838;
 }
 .head-tips {
- display: flex;
- justify-content: center;
- align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* .cards {
- display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr;
-} */
+.head-tips h3 {
+  font-size: 23px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Palatino Linotype', 'Book Antiqua';
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.cards button {
+  flex: 2 0 21%;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 12px 0px 12px 0px;
+  margin: 10px;
+}

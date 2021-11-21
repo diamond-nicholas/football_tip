@@ -4,14 +4,14 @@ import ('../Styles/Content.css')
 const Content = () => {
  return (
    <>
-     <main>
+     <main className='contentMain'>
        <h4>Experts ACCA</h4>
        <h5>Are you confused with making the right selections?</h5>
        <p>
          Let our experts guide you to victory with their best football tips
          selection of the day!
        </p>
-       <button>Get 5-10 ODDS of Experts Best Selection of the Day</button>
+       <button>Get 5-10 ODDS of Experts <br />Best Selection of the Day</button>
        <div className='content'>
          <article className='money'>
            <h3>What is the best way of making money with football betting</h3>
