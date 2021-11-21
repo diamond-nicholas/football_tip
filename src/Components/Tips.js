@@ -5,33 +5,35 @@ const Tips = () => {
   return (
     <>
       <main>
-        <article>
+        <article className='head-tips'>
           <h3>Tips Store</h3>
         </article>
-        <aside>
-          <h3>Double Chance</h3>
-        </aside>
-        <aside>
-          <h3>Double Chance</h3>
-        </aside>
-        <aside>
-          <h3>Double Chance</h3>
-        </aside>
-        <aside>
-          <h3>Double Chance</h3>
-        </aside>
-        <aside>
-          <h3>Double Chance</h3>
-        </aside>
-        <aside>
-          <h3>Double Chance</h3>
-        </aside>
-        <aside>
-          <h3>Double Chance</h3>
-        </aside>
-        <aside>
-          <h3>Double Chance</h3>
-        </aside>
+        <article className='cards'>
+          <aside>
+            <h3>Double Chance</h3>
+          </aside>
+          <aside>
+            <h3>Over/Under 1.5</h3>
+          </aside>
+          <aside>
+            <h3>Potential Risk</h3>
+          </aside>
+          <aside>
+            <h3>Weekend Tips</h3>
+          </aside>
+          <aside>
+            <h3>Double Chance</h3>
+          </aside>
+          <aside>
+            <h3>Double Chance</h3>
+          </aside>
+          <aside>
+            <h3>Double Chance</h3>
+          </aside>
+          <aside>
+            <h3>Double Chance</h3>
+          </aside>
+        </article>
       </main>
     </>
   );
