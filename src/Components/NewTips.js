@@ -22,7 +22,7 @@ const NewTips = () => {
     <div>
       <article className='tips-header'>
         <h3>Free Tips For Today</h3>
-        <button>{time } </button>
+        <button className='timer'>{time } </button>
       </article>
       <div className='fixtures'>
         <table>

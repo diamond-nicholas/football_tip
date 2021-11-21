@@ -8,15 +8,19 @@
   font-size: 1.5rem;
 }
 
+.timer {
+  padding: 0.7rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
 .fixtures {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-table,
-th,
-td {
+table{
   border: 1px solid black;
 }
 
