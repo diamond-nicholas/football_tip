@@ -7,6 +7,7 @@ import Upcoming from './Upcoming';
 import FAQ from '../Pages/FAQ/FAQ';
 import Contact from '../Pages/Contact/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Admin from '../Admin/Admin';
 
 import('../Styles/App.css');
 
@@ -25,6 +26,7 @@ function App() {
           </Route>
           <Route path='/contact' component={Contact} />
           <Route path='/faq' component={FAQ} />
+          <Route path='/adminDashboard' component={Admin} />
         </Switch>
       </div>
     </Router>
