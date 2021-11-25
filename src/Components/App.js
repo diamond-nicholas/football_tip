@@ -4,19 +4,28 @@ import NewTips from './NewTips';
 import Plans from './Plans';
 import Tips from './Tips';
 import Upcoming from './Upcoming';
+import Contact from '../Pages/Contact/Contact';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import('../Styles/App.css');
 
 function App() {
   return (
-    <div className='App'>
-      <Nav />
-      <NewTips />
-      <Plans />
-      <Upcoming />
-      <Tips />
-      <Content />
-    </div>
+    <Router>
+      <div className='App'>
+        <Nav />
+        <Switch>
+          <Route exact path='/'>
+            <NewTips />
+            <Plans />
+            <Upcoming />
+            <Tips />
+            <Content />
+          </Route>
+          <Route path='/contact' component={Contact} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
