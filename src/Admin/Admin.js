@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const Admin = () => {
   const [home, setHome] = useState('');
+  const [away, setAway] = useState('');
   return (
     <div>
       <h1>hello admin</h1>
@@ -14,7 +15,13 @@ const Admin = () => {
           onChange={(e) => setHome(e.target.value)}
         />
         <br />
-        <input type='text' className='home' placeholder='away' />
+        <input
+          type='text'
+          className='home'
+          placeholder='away'
+          value={away}
+          onChange={(e) => setAway(e.target.value)}
+        />
         <br />
         <input type='text' className='home' placeholder='predictions' />
         <br />
