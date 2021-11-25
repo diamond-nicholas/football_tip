@@ -14,7 +14,7 @@ const Nav = () => {
             <li className='list-item'>Leagues</li>
             <li className='list-item'>Tips</li>
             <li className='list-item'>Weekend 10odds</li>
-            <li className='list-item'>Faqs</li>
+            <Link to='/faq'>FAQ</Link>
             <Link to='/contact'>Contact Us</Link>
           </ul>
         </header>
