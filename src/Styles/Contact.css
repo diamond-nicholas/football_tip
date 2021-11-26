@@ -1,0 +1,45 @@
+.contact h3 {
+  color: red;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.contact p {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+.contactCard {
+  display: flex;
+  justify-content: center;
+}
+.contactCard form {
+  background-color: #d8bfd8;
+  margin-right: 2rem;
+  padding: 2rem;
+}
+
+input[type='text'],
+input[type='email'] {
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea[type='textarea'] {
+  padding: 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contactCard .right {
+  background-color: #d8bfd8;
+  max-width: 500px;
+}
+
+.right p {
+  padding: 0.5rem;
+}

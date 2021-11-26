@@ -5,7 +5,7 @@ import Plans from './Plans';
 import Tips from './Tips';
 import Upcoming from './Upcoming';
 import FAQ from '../Pages/FAQ/FAQ';
-import Contact from '../Pages/Contact/Contact';
+import Contact from '../Pages/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Admin from '../Admin/Admin';
 
