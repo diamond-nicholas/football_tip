@@ -19,7 +19,8 @@ const Contact = () => {
           <label>Phone Number:</label> <br />
           <input type='text' /> <br />
           <label>Message:</label> <br />
-          <textarea type='textarea' />
+          <textarea type='textarea' /> <br />
+          <button type='submit'>Send Message</button>
         </form>
         <div className='right'>
           <p>

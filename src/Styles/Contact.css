@@ -35,6 +35,16 @@ textarea[type='textarea'] {
   box-sizing: border-box;
 }
 
+button[type='submit'] {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.3rem;
+  border-radius: 20px;
+  background-color: black;
+  color: #ccc;
+  font-size: 10px;
+}
+
 .contactCard .right {
   background-color: #d8bfd8;
   max-width: 500px;
